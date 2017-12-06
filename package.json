@@ -1,0 +1,32 @@
+{
+  "name": "jogando-a-velha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnandeLinhares/jogando-a-velha.git"
+  },
+  "keywords": [
+    "jogo-da-velha",
+    "jogo-da-velha-online",
+    "tic-tac-toe",
+    "tic-tac-toe-online"
+  ],
+  "author": "Ernande Linhares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErnandeLinhares/jogando-a-velha/issues"
+  },
+  "homepage": "https://github.com/ErnandeLinhares/jogando-a-velha#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
+}
