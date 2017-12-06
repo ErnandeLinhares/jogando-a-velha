@@ -2,9 +2,9 @@
 
 //$(function () {
 
-	var connection_socket = "http://localhost:5000/";
+	//var connection_socket = "http://localhost:5000/";
 
-	var socket = io(connection_socket);
+	var socket = io(/*connection_socket*/);
 
 	socket.on("linkShared", function(link){
 
